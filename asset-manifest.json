@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/xtbox/static/css/main.fed48702.chunk.css",
+    "main.js": "/xtbox/static/js/main.a50b7d28.chunk.js",
+    "main.js.map": "/xtbox/static/js/main.a50b7d28.chunk.js.map",
+    "runtime-main.js": "/xtbox/static/js/runtime-main.81adc1e5.js",
+    "runtime-main.js.map": "/xtbox/static/js/runtime-main.81adc1e5.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/xtbox/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.a57d7964.chunk.js": "/xtbox/static/js/2.a57d7964.chunk.js",
+    "static/js/2.a57d7964.chunk.js.map": "/xtbox/static/js/2.a57d7964.chunk.js.map",
+    "index.html": "/xtbox/index.html",
+    "precache-manifest.5be7ee3662136eff04c4275387ca8c5b.js": "/xtbox/precache-manifest.5be7ee3662136eff04c4275387ca8c5b.js",
+    "service-worker.js": "/xtbox/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/xtbox/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.fed48702.chunk.css.map": "/xtbox/static/css/main.fed48702.chunk.css.map",
+    "static/js/2.a57d7964.chunk.js.LICENSE.txt": "/xtbox/static/js/2.a57d7964.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81adc1e5.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.a57d7964.chunk.js",
+    "static/css/main.fed48702.chunk.css",
+    "static/js/main.a50b7d28.chunk.js"
+  ]
+}
