@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/xtbox/static/css/main.fed48702.chunk.css",
-    "main.js": "/xtbox/static/js/main.a50b7d28.chunk.js",
-    "main.js.map": "/xtbox/static/js/main.a50b7d28.chunk.js.map",
+    "main.css": "/xtbox/static/css/main.f3e3f553.chunk.css",
+    "main.js": "/xtbox/static/js/main.a2ff48bc.chunk.js",
+    "main.js.map": "/xtbox/static/js/main.a2ff48bc.chunk.js.map",
     "runtime-main.js": "/xtbox/static/js/runtime-main.81adc1e5.js",
     "runtime-main.js.map": "/xtbox/static/js/runtime-main.81adc1e5.js.map",
     "static/css/2.af3c1da9.chunk.css": "/xtbox/static/css/2.af3c1da9.chunk.css",
     "static/js/2.a57d7964.chunk.js": "/xtbox/static/js/2.a57d7964.chunk.js",
     "static/js/2.a57d7964.chunk.js.map": "/xtbox/static/js/2.a57d7964.chunk.js.map",
     "index.html": "/xtbox/index.html",
-    "precache-manifest.a9311386ee50f0ced1cb4c95065ab5c5.js": "/xtbox/precache-manifest.a9311386ee50f0ced1cb4c95065ab5c5.js",
+    "precache-manifest.cbc390cfef10598af1114c5017ff7d77.js": "/xtbox/precache-manifest.cbc390cfef10598af1114c5017ff7d77.js",
     "service-worker.js": "/xtbox/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/xtbox/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.fed48702.chunk.css.map": "/xtbox/static/css/main.fed48702.chunk.css.map",
+    "static/css/main.f3e3f553.chunk.css.map": "/xtbox/static/css/main.f3e3f553.chunk.css.map",
     "static/js/2.a57d7964.chunk.js.LICENSE.txt": "/xtbox/static/js/2.a57d7964.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.81adc1e5.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.a57d7964.chunk.js",
-    "static/css/main.fed48702.chunk.css",
-    "static/js/main.a50b7d28.chunk.js"
+    "static/css/main.f3e3f553.chunk.css",
+    "static/js/main.a2ff48bc.chunk.js"
   ]
 }

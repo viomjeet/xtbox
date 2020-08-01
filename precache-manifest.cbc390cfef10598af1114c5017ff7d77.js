@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c09a1793b4c79cdcc3c6c9a2bb86669a",
+    "revision": "fdfda81b6a196c4cf8d7e805b36a2008",
     "url": "/xtbox/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xtbox/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "ed7051ae8314fc8e8ba5",
-    "url": "/xtbox/static/css/main.fed48702.chunk.css"
+    "revision": "3c769ff81409baabba31",
+    "url": "/xtbox/static/css/main.f3e3f553.chunk.css"
   },
   {
     "revision": "f763b235891a7a99a67f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xtbox/static/js/2.a57d7964.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed7051ae8314fc8e8ba5",
-    "url": "/xtbox/static/js/main.a50b7d28.chunk.js"
+    "revision": "3c769ff81409baabba31",
+    "url": "/xtbox/static/js/main.a2ff48bc.chunk.js"
   },
   {
     "revision": "6203e083eae492ccb242",
