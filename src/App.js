@@ -18,9 +18,9 @@ function App() {
     <div className="app">
       <div className="app_inner">
         <Router>
-          <Navbar bg="dark" variant="dark" className="movieBar mb-4">
+          <Navbar className="movieBar mb-4">
             <Container>
-              <Link className="navbar-brand" to="/xtbox/">Movies</Link>
+              <Link className="navbar-brand" to="/xtbox/"><span>xt</span><strong>box</strong></Link>
               <Navbar.Brand href="#home"></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Nav className="ml-auto">

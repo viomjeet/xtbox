@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar-nav a.active{color: #f00!important;}
 
 .btn:active,
 .btn:focus,
@@ -42,6 +41,55 @@ body {
     font-weight: 900;
 }
 
+.movieBar {
+    border-top      : 5px solid #00bfa5;
+    background-color: #ffffff !important;
+    box-shadow      : 0 0px 8px rgba(0, 0, 0, 0.1);
+    padding         : 0px 10px !important;
+
+}
+
+.movieBar .navbar-nav .nav-link {
+    position      : relative;
+    padding       : 0.8rem .5rem !important;
+    margin-left   : 3px;
+    font-weight   : 600;
+    text-transform: uppercase;
+    font-size     : 13px;
+}
+
+.movieBar .navbar-nav .nav-link::after {
+    position: absolute;
+    left    : 0px;
+    bottom  : 0px;
+    content : '';
+    display : block;
+    width   : 100%;
+    height  : 2px;
+}
+
+.movieBar .navbar-nav .nav-link:hover::after {
+    background: rgba(0, 0, 0, .5);
+}
+
+.movieBar .navbar-nav .nav-link.active {
+    color: #00bfa5 !important;
+}
+
+.movieBar .navbar-nav .nav-link.active:after {
+    background: #00bfa5;
+}
+
+.movieBar .navbar-brand>span {
+    color  : #000;
+    display: inline-block;
+
+}
+
+.movieBar .navbar-brand>strong {
+    color: #00bfa5 !important;
+}
+
 .page_header {
     border-bottom: 1px solid #eee;
     margin-bottom: 20px;
@@ -50,6 +98,7 @@ body {
 .page_title {
     font-weight: 300;
     margin-top : 5px;
+    color      : #00bfa5;
 }
 
 .page_center {
@@ -82,28 +131,40 @@ body {
     background: url('https://i.stack.imgur.com/h6viz.gif') no-repeat center 50%;
     box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
     border    : 0px !important;
+    cursor    : pointer;
+}
+
+.cus_card:hover>.movie_name {
+    width     : 100%;
+    height    : 20%;
+    overflow  : hidden;
+    font-size : 1.1em;
+    transition: all 0.1s ease-in-out;
+    background: rgb(0 191 165 / 56%)
 }
 
 .cus_card>.movie_name {
-    position      : absolute;
-    width         : 20px;
-    height        : 20px;
-    left          : -8px;
-    bottom        : 10px;
-    white-space   : nowrap;
-    transform     : rotate(-90deg);
-    font-weight   : 600;
-    color         : #fff;
-    text-transform: uppercase;
-    text-shadow   : 0px 4px 6px rgba(0, 0, 0, 0.75);
-    font-size     : 1.5em;
+    position       : absolute;
+    width          : 100%;
+    height         : 40px;
+    overflow       : hidden;
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: center;
+    background     : #00bfa5;
+    bottom         : 0px;
+    right          : 0;
+    font-weight    : 400;
+    color          : #fff;
+    text-transform : uppercase;
+    font-size      : 1em;
+    text-align     : center;
+    white-space    : nowrap;
+    
 }
 
-.cus_card>.movie_name::first-letter {
-    color         : #f90;
-    font-size     : 1.8em;
-    letter-spacing: 3px;
-}
+.cus_card>.movie_name {}
 
 
 body,
@@ -151,16 +212,13 @@ footer .ecart-footer {
         min-height: 170px;
     }
 
-    .cus_card>.movie_name {
+    /* .cus_card>.movie_name {
         left     : -3px;
         bottom   : 5px;
         font-size: 1em;
-    }
+    } */
 
-    .cus_card>.movie_name::first-letter {
-        font-size     : 1.4em;
-        letter-spacing: 2px;
-    }
+
 
     .page_title {
         margin-bottom: -10px;
