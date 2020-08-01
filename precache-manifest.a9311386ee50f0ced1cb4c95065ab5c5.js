@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec432a26e17144b78e8c7cfa2f070b07",
+    "revision": "c09a1793b4c79cdcc3c6c9a2bb86669a",
     "url": "/xtbox/index.html"
   },
   {
